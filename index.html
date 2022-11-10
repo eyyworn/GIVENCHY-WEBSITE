@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Givenchy Shop</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#home" class="logo"><img src="images/logofinale.png" alt=""></a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#menu">menu</a>
+         <a href="#gallery">gallery</a>
+         <a href="#team">Login</a>
+         <a href="#contact">contact us</a>
+      </nav>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </section>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="home-bg">
+
+   <section class="home" id="home">
+
+      <div class="content">
+         <h3>AESPA</h3>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut officia, accusantium mollitia laudantium dolorum dolore.</p>
+         <a href="#about" class="btn">about us</a>
+      </div>
+
+   </section>
+
+</div>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/home.bg.jpg_large" alt="">
+   </div>
+
+   <div class="content">
+      <h3>Improving Your Looks and Confidence</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit sunt repellendus, dolorum recusandae placeat quae. Iste eaque aspernatur, animi deleniti voluptas, sunt molestias eveniet sint consectetur facere a ex.</p>
+      <a href="#menu" class="btn">our shop</a>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- facility section starts  -->
+
+<section class="facility">
+
+   <div class="heading">
+      <img src="images/heading-img.png" alt="">
+      <h3>our facility</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.jpg" alt="">
+         <h3>Men</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.jpg" alt="">
+         <h3>Women</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.jpg" alt="">
+         <h3>For Him</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.jpg" alt="">
+         <h3>For Her</h3>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, adipisci!</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- facility section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <img src="images/heading-img.jpg" alt="">
+      <h3>popular menu</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/menu.1.webp" alt="">
+         <h3>U Lock Ring</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu.2.webp" alt="">
+         <h3>G Link Bracelet</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu.3.webp" alt="">
+         <h3>G Chain </h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu.4.webp" alt="">
+         <h3>4G Earrings</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu.5.webp" alt="">
+         <h3>4G Pearl Earcuff</h3>
+      </div>
+
+      <div class="box">
+         <img src="images/menu.6.webp" alt="">
+         <h3>Lock 4G Necklace</h3>
+      </div>
+
+      <button class = "seemore-btn">
+      <h7>See More</h7>
+</button>
+
+   </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <img src="images/heading-img.png" alt="">
+      <h3>Gallery</h3>
+   </div>
+
+   <div class="box-container">
+      <img src="images/gallery-1.webp" alt="">
+      <img src="images/gallery-2.webp" alt="">
+      <img src="images/gallery-3.webp" alt="">
+      <img src="images/gallery-4.webp" alt="">
+      <img src="images/gallery-5.webp" alt="">
+      <img src="images/gallery-6.webp" alt="">
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- team section starts  -->
+
+<section class="team" id="team">
+
+  <!-- Button to open the modal login form -->
+  <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+  <!-- The Modal -->
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+  class="close" title="Close Modal">&times;</span>
+
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+      <div class="imgcontainer">
+        <img src="images/logofinal.png" alt="Avatar" class="avatar">
+      </div>
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </form>
+  </div>
+
+</section>
+<!-- team section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <div class="heading">
+      <img src="images/heading-img.jpg" alt="">
+      <h3>contact us</h3>
+   </div>
+
+   <div class="row">
+
+      <div class="image">
+         <img src="images/aespa.jpg" alt="">
+      </div>
+
+      <form action="" method="post">
+         <h3>Newsletter</h3>
+         <input type="text" name="name" required class="box" maxlength="50" placeholder="Email">
+         <input type="submit" name="send" value="Sign Up" class="btn">
+      </form>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <i class="fas fa-envelope"></i>
+         <h3>our email</h3>
+         <p>givenchyparis@gmail.com</p>
+
+      </div>
+
+
+
+      <div class="box">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>location</h3>
+         <p>Paris, France - 4322</p>
+      </div>
+
+      <div class="box">
+         <i class="fas fa-phone"></i>
+         <h3>Landline</h3>
+         <p>+343-556-3435</p>
+
+      </div>
+
+   </div>
+
+   <div class="credit"> &copy; copyright @ 2022 by <span>GivenchyParis</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
